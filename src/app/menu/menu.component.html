@@ -1,0 +1,12 @@
+<mat-toolbar>
+  <button  [matMenuTriggerFor]="menu" mat-icon-button aria-label="Menu icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <a mat-menu-item href="">Home</a>
+    <a mat-menu-item href="addPerson">Add Person</a>
+  </mat-menu>
+  <span id="headerTitle">The Peoples CRUD Project</span>
+  <span class="menu-spacer"></span>
+
+</mat-toolbar>

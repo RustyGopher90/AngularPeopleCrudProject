@@ -1,0 +1,36 @@
+<div id="addPersonBody">
+  <app-menu></app-menu>
+
+  <h1 id="addPersonHeader">Add a Person</h1>
+
+  <mat-tab-group id="addPersonTabs">
+    <mat-tab class="addPersonTab" label="Name">
+      <mat-form-field class="personForm" appearance="fill">
+        <mat-label class="addPersonTabText">First Name:</mat-label>
+        <input matInput [(ngModel)]='newPerson.firstName' placeholder="persons first name">
+      </mat-form-field>
+
+      <mat-form-field class="personForm" appearance="fill">
+        <mat-label>Last Name:</mat-label>
+        <input matInput [(ngModel)]='newPerson.lastName' placeholder="persons last name">
+      </mat-form-field>
+    </mat-tab>
+    <mat-tab label="DOB">
+      <mat-form-field class="personForm" appearance="fill">
+        <mat-label>DOB:</mat-label>
+        <input matInput [(ngModel)]='newPerson.dob' placeholder="persons DOB">
+      </mat-form-field>
+    </mat-tab>
+    <mat-tab label="Email">
+      <mat-form-field class="personForm" appearance="fill">
+        <mat-label>Email:</mat-label>
+        <input matInput [(ngModel)]='newPerson.email' placeholder="persons email">
+      </mat-form-field>
+    </mat-tab>
+  </mat-tab-group>
+
+  <button id="addPersonSubmitButton" (click)="addPerson(newPerson)" mat-raised-button color="accent">Submit</button>
+</div>
+
+<app-footer></app-footer>
+

@@ -1,0 +1,12 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.personForm{
+    width:50%;
+}
+.updatePersonButton{
+    margin-bottom:2%;
+    width:10%;
+}

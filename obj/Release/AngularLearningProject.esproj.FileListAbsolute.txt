@@ -1,0 +1,2 @@
+C:\Users\14015\source\repos\AngularLearningProject\obj\Release\AngularLearningProject.esproj.SuggestedBindingRedirects.cache
+C:\Users\14015\source\repos\AngularLearningProject\obj\Release\AngularLearningProject.esproj.CoreCompileInputs.cache

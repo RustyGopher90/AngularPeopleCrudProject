@@ -1,0 +1,25 @@
+#addPersonHeader
+{
+    margin-top:2%;
+    margin-bottom:2%;
+}
+#addPersonTabs{
+    background-color:grey;
+}
+.addPersonButton {
+  width: 10%;
+  margin-top: 2%;
+}
+.addPersonTab{
+    background-color:white !important;
+}
+.addPersonTabText{
+    color:black !important;
+}
+#addPersonSubmitButton{
+    margin-top:2%;
+}
+#addPersonBody {
+  background-color: lightgrey;
+  min-height: calc(100vh - 4rem);
+}
